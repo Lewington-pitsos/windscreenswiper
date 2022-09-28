@@ -1,0 +1,28 @@
+{
+   "browser_action": {
+      "default_icon": "icons/icon128.png",
+      "default_popup": "popup.html",
+      "default_title": "Auto Liker for 🔥"
+   },
+   "content_scripts": [ {
+      "js": [ "jquery-3.4.1.min.js", "contentScript.js" ],
+      "matches": [ "https://*.tinder.com/*" ]
+   } ],
+   "description": "Wax on... wax off...",
+   "icons": {
+      "128": "icons/icon128.png",
+      "156": "icons/icon156.png",
+      "196": "icons/icon196.png",
+      "256": "icons/icon256.png",
+      "32": "icons/icon32.png",
+      "512": "icons/icon512.png",
+      "64": "icons/icon64.png",
+      "96": "icons/icon96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmQvxckWSRNJcAcg9H09AJlhP5dgqLlRJNgxlFEZP/3M+m8iqCP3FTUGTz01xN/chAjKyjeA00G0dygSuvCLYypJ5wjR3hHYJmlKxrpQMJG2QLW4czMBlC15+BEBLE+r7MCwSkslz8DpSo1nkEzfPKMxuCN/0S72qGxoF9azm8yDLkbnGhbuQQ0+vfOx2ScOlJEmW0jPGFuYxPrVRMP6+B/cRBrDM4rH9kPjIykC2kmAN7JVabr+DwcXG/KHgE9Fv1Ix5K2nZTir3n5lM74Wp6HQseJqqU6VER6nytygmQ8AfRYQBcBdefju7uNdfUlgwD1myRB8tKgXSNGx4fnLs3wIDAQAB",
+   "manifest_version": 2,
+   "name": "Windscreen Swiper",
+   "permissions": [ "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.1"
+}

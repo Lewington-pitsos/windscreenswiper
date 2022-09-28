@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="./popup.css" />
+    <script src="./jquery-3.4.1.min.js"></script>
+    <script src="./popup.js"></script>
+</head>
+<body>
+    <img src="./icons/icon128.png" alt="icon" class="icon" />
+    <h1 id="title">Auto Liker for Tinder</h1>
+    <div class="buttons">
+        <label for="speedTime" class="font-1rem">Speed in Seconds:</label>
+        <div class="speedTime font-1rem">
+            <input type="range" min="500" max="15000" value="3500" step="10" class="slider" id="speedSlider" />
+            <input type="text" value="0.1" id="speedTime" />
+            <span class="ml-05">sec</span>
+        </div>
+        <button type="button" id="startSwiping">Start Swiping</button>
+        <button type="button" id="stopSwiping">Stop Swiping</button>
+
+        <div class="refresh-note">
+            If it doesn't work, please try refreshing the page.
+        </div>
+    </div>
+    <div class="not-tinder">Please go to <a href="https://tinder.com" id="openTinder"><strong>Tinder</strong></a> first.</div>
+</body>
+</html>
